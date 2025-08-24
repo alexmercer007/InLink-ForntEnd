@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+
+html, body {
+
+  position: relative;
+  display: flex;
+  height: 100%;
+  margin: 0;
+  background-color: #21272b; /* azul (equivalente a bg-blue-500) */
+  font-family: Arial, sans-serif;
+  align-content: center;
+
+}
+
+.login {
+
+background: linear-gradient( to right, rgba(29, 37, 83, 0.8),rgba(31, 56, 80, 0.8),rgba(19, 23, 78, 0.8));
+
+
+}
