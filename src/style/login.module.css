@@ -1,0 +1,104 @@
+
+html, body {
+    background-color: rgb(24, 24, 24);
+    height: 100vh;
+    width: 100vw;
+    border: 0px;
+}
+
+main {
+    background-color: rgb(24, 24, 24);
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+hr {
+   background-color: white;
+}
+
+.button-login {
+    background-color: #22c55e; /* verde base */
+    cursor: pointer;
+    transition: transform 0.8ms ease, background-color 0.3s ease;
+}
+
+.button-login:hover {
+    background-color: #16a34a; /* verde más oscuro */
+    transform: scale(1.05);
+}
+
+.button-login:active {
+    background-color: #15803d; /* verde fuerte */
+    transform: scale(0.95);
+}
+
+
+
+.button-register {
+    background-color: #3b82f6; /* azul base */
+    cursor: pointer;
+    transition: transform 0.8ms ease, background-color 0.3s ease;
+}
+
+.button-register:hover {
+    background-color: #2563eb; /* azul más oscuro */
+    transform: scale(1.05);
+}
+
+.button-register:active {
+    background-color: #1d4ed8; /* azul fuerte */
+    transform: scale(0.95);
+}
+
+
+footer {
+    display:flex;
+    height: 15vh;
+    justify-content: center;
+    align-items: center; 
+}
+
+a {
+    cursor: pointer;
+}
+
+a:hover {
+    color:greenyellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
